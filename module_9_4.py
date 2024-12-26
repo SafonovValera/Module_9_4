@@ -36,7 +36,7 @@ def get_advanced_writer(file_name):
 
         with open(file_name, 'a', encoding='utf8') as file:
             for i in data_set:
-                file.write(str(i)+'\n')
+                file.write(str(i) + '\n')
 
 # Функция get_advanced_writer возвращает функцию write_everything.
 
